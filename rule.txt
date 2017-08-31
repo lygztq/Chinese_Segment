@@ -1,0 +1,37 @@
+SUBSTITUTE 全|国|人大 全国人大
+SUBSTITUTE 常|委会 常委会
+SUBSTITUTE 委|员长 委员长
+SUBSTITUTE 历史|上规模 历史|上|规模
+SUBSTITUTE 成|就 成就
+SUBSTITUTE 阿巴迪首|先 阿巴迪|首先
+SUBSTITUTE 阿巴迪表示 阿巴迪|表示
+SUBSTITUTE 当前|伊正|面临|重建|经济 当前|伊|正|面临|重建|经济
+SUBSTITUTE 全国人|大常委会 全国人大|常委会
+SUBSTITUTE 中华|人民共和国 中华人民共和国
+SUBSTITUTE 全国|代表大会 全国代表大会
+SUBSTITUTE 在|内|地|的 在|内地|的
+SUBSTITUTE 建制|村未通|公路 建制村|未|通|公路
+SUBSTITUTE 未|通高速|公路 未|通|高速|公路
+SUBSTITUTE |没|有|用|上|电 |没有|用上|电
+SUBSTITUTE 碳|碳键键|能|能否|否定 碳碳键|键能|能否|否定
+SUBSTITUTE |B|-|52|轰炸机 |B-52轰炸机
+SUBSTITUTE 美国|防部 美|国防部
+SUBSTITUTE 美军|方 美|军方|
+SUBSTITUTE 因美军|舰机|多次|抵|近|中国 因|美军|舰机|多次|抵近|中国
+SUBSTITUTE 户|改|方案 户改方案
+SUBSTITUTE 中共中央|办公|厅 中共中央|办公厅
+SUBSTITUTE 中央|车|改办 中央车改办
+SUBSTITUTE 先|内地|后|边|疆 先|内地|后|边疆
+SUBSTITUTE 所|有|已|通气|城市 所有|已|通气|城市
+SUBSTITUTE 均|应|建立|起居民生|活用|气|阶梯|价格|制度 均|应|建立|起|居民|生活|用|气|阶梯|价格|制度
+SUBSTITUTE 董事|长龙|增来 董事长|龙增来
+SUBSTITUTE 言|出纪|随 言出纪随
+SUBSTITUTE 相关|单位|值班|懒政要|追责 相关|单位|值班|懒政|要|追责
+SUBSTITUTE 严肃|问|责 严肃|问责
+SUBSTITUTE 报|备|制度 报备|制度
+SUBSTITUTE 两|孩|政策 两孩政策
+SUBSTITUTE 周天|鸿 周天鸿
+SUBSTITUTE 王明|雯 王明雯
+
+
+
