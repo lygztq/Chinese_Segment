@@ -252,7 +252,6 @@ def segmentAText():
         f.close()
 
     def backward_search(a,dic,new_dic,l):
-        #逆序搜索
         point_tail = len(a)
         point_head = max(point_tail - l,0)
         ans = []
@@ -266,7 +265,6 @@ def segmentAText():
         return (ans)
 
     def forward_search(a,dic,new_dic,l):
-        #正序搜索
         point_tail = 0
         point_head = min(point_tail + l,len(a))
         ans = []
@@ -365,7 +363,7 @@ def segmentAText():
         return devide1_1
 
     def search(sentence,dic,new_dic):
-        #主要结构部分
+        # main algorithm
         l = 5
 
 #        specialcase(sentence)
@@ -382,7 +380,7 @@ def segmentAText():
         add = compare(divide1,divide2)
         tup = (ans1,add)
         return(tup)
-    #从引号和括号中搜索新词
+    # find new word from "" and ()
     filename=tkinter.filedialog.askopenfilename()
     generate_rulelibrary()
     openfile=open(filename,'r')
@@ -412,7 +410,6 @@ def segmentAText():
             point1 = content.find(punc2[2*i],point1+1)
             point2 = content.find(punc2[2*i+1],point2+1)
     readfile_p2.close()
-# 从引号和括号中搜索新词
 
     tempc = []
     for i in range(len(content)):
@@ -438,7 +435,7 @@ def segmentAText():
     while('' in part):
         part.remove('')
 
-#按标点分开
+# divide using , . ! ? ;
     outputfilename=tkinter.filedialog.asksaveasfilename()
     outputfilename=outputfilename+'.txt'
     outputfile=open(outputfilename,'w+')
@@ -497,7 +494,6 @@ def devide():
         return(rulelibrary)
 
     def backward_search(a,dic,new_dic,l):
-        #逆序搜索
         point_tail = len(a)
         point_head = max(point_tail - l,0)
         ans = []
@@ -511,7 +507,6 @@ def devide():
         return (ans)
 
     def forward_search(a,dic,new_dic,l):
-        #正序搜索
         point_tail = 0
         point_head = min(point_tail + l,len(a))
         ans = []
@@ -562,14 +557,6 @@ def devide():
                         p2+=1
                         sum_len2 += len(divide2[p2])
                 suffixpoint = p1
-#               if prefixpoint > 0:
-#                   wrongcut.insert(0,divide1[prefixpoint-1])
-#                   new_ans.pop()
-#               if suffixpoint < len(divide1)-1:
-#                   if divide1[p1+1] == divide2[p2+1]:
-#                       wrongcut.append(divide1[suffixpoint+1])
-#                       divide1.pop(p1+1)
-#                       divide2.pop(p2+1)
                 recut = "".join(wrongcut)
                 a = HMM.cutUnrecognized(recut)
                 for i in range(len(a)):
@@ -610,7 +597,7 @@ def devide():
         return devide1_1
 
     def search(sentence,dic,new_dic):
-        #主要结构部分
+        #main algorithm
         l = 5
 
 #        specialcase(sentence)
@@ -656,7 +643,7 @@ def devide():
             point1 = content.find(punc2[2*i],point1+1)
             point2 = content.find(punc2[2*i+1],point2+1)
     readfile_p2.close()
-# 从引号和括号中搜索新词
+# search new word from () and ""
 
     tempc = []
     for i in range(len(content)):
@@ -682,7 +669,7 @@ def devide():
     while('' in part):
         part.remove('')
 
-#按标点分开
+#divide word
 
     dic = generate_dic()
     no = 1
